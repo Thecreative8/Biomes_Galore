@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "biomes_galore:blocks/pinapple_plant",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomes_galore:pinapple"
+        }
+      ]
+    }
+  ]
+}

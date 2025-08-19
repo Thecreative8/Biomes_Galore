@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "biomes_galore:huge_pinapple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1018199674
+  }
+}

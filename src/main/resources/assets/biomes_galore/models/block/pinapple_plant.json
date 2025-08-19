@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "biomes_galore:block/pinapple",
+    "particle": "biomes_galore:block/pinapple"
+  },
+  "render_type": "solid"
+}

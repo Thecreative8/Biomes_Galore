@@ -1,0 +1,87 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "ambient.underwater.loop",
+    "additions_sound": {
+      "sound": "ambient.underwater.loop.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "music.under_water",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -2490524,
+    "grass_color": -2490524,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": -2490524,
+    "water_fog_color": -2490524
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "drowned",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [
+      {
+        "type": "cod",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "dolphin",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "salmon",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "tropical_fish",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "squid",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

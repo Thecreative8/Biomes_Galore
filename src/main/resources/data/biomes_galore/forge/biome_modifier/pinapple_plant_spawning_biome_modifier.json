@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "biomes_galore:pinnaple_fields",
+  "features": "biomes_galore:pinapple_plant_spawning",
+  "step": "surface_structures"
+}

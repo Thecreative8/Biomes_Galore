@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "biomes_galore:pinnaple_fields",
+  "spawners": {
+    "type": "biomes_galore:pinapple_fish",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

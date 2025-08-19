@@ -1,0 +1,246 @@
+{
+  "mod_elements": [
+    {
+      "name": "PinappleBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/biomes_galore/blockstates/pinapple_block.json",
+          "src/main/resources/assets/biomes_galore/models/block/pinapple_block.json",
+          "src/main/resources/data/biomes_galore/loot_tables/blocks/pinapple_block.json",
+          "src/main/resources/assets/biomes_galore/models/item/pinapple_block.json",
+          "src/main/java/net/mcreator/biomesgalore/block/PinappleBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PinappleStem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_stem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/biomes_galore/models/block/pinapple_stem.json",
+          "src/main/resources/assets/biomes_galore/models/item/pinapple_stem.json",
+          "src/main/java/net/mcreator/biomesgalore/block/PinappleStemBlock.java",
+          "src/main/resources/data/biomes_galore/loot_tables/blocks/pinapple_stem.json",
+          "src/main/resources/assets/biomes_galore/blockstates/pinapple_stem.json"
+        ]
+      }
+    },
+    {
+      "name": "PinnapleFields",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinnaple_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biomes_galore/worldgen/biome/pinnaple_fields.json"
+        ]
+      }
+    },
+    {
+      "name": "HugePinapple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huge_pinapple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biomes_galore/worldgen/structure/huge_pinapple.json",
+          "src/main/resources/data/biomes_galore/worldgen/template_pool/huge_pinapple.json",
+          "src/main/resources/data/biomes_galore/worldgen/structure_set/huge_pinapple.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallPinapple",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_pinapple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biomesgalore/block/SmallPinappleBlock.java",
+          "src/main/resources/assets/biomes_galore/blockstates/small_pinapple.json",
+          "src/main/resources/assets/biomes_galore/models/item/small_pinapple.json",
+          "src/main/resources/data/biomes_galore/loot_tables/blocks/small_pinapple.json",
+          "src/main/resources/assets/biomes_galore/models/block/small_pinapple.json"
+        ]
+      }
+    },
+    {
+      "name": "Pinapple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/biomes_galore/models/item/pinapple.json",
+          "src/main/java/net/mcreator/biomesgalore/item/PinappleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PinapplePlant",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biomes_galore/loot_tables/blocks/pinapple_plant.json",
+          "src/main/resources/assets/biomes_galore/models/item/pinapple_plant.json",
+          "src/main/resources/assets/biomes_galore/blockstates/pinapple_plant.json",
+          "src/main/java/net/mcreator/biomesgalore/block/PinapplePlantBlock.java",
+          "src/main/resources/assets/biomes_galore/models/block/pinapple_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "PinapplePlantSpawningAdditionalGenerationCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_plant_spawning_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/biomesgalore/procedures/PinapplePlantSpawningAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PinapplePlantSpawning",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_plant_spawning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biomes_galore/worldgen/configured_feature/pinapple_plant_spawning.json",
+          "src/main/java/net/mcreator/biomesgalore/world/features/PinapplePlantSpawningFeature.java",
+          "src/main/resources/data/biomes_galore/worldgen/placed_feature/pinapple_plant_spawning.json",
+          "src/main/resources/data/biomes_galore/forge/biome_modifier/pinapple_plant_spawning_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "PinappleFish",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biomes_galore/forge/biome_modifier/pinapple_fish_biome_modifier.json",
+          "src/main/resources/assets/biomes_galore/models/item/pinapple_fish_spawn_egg.json",
+          "src/main/java/net/mcreator/biomesgalore/entity/PinappleFishEntity.java",
+          "src/main/java/net/mcreator/biomesgalore/client/renderer/PinappleFishRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PinapplePizza",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_pizza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/biomesgalore/item/PinapplePizzaItem.java",
+          "src/main/resources/assets/biomes_galore/models/item/pinapple_pizza.json"
+        ]
+      }
+    },
+    {
+      "name": "PinapplePizzaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinapple_pizza_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biomes_galore/recipes/pinapple_pizza_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:PinnapleFields"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:PinnapleFields"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:PinnapleFields"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:PinnapleFields"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_ocean": [
+      "~CUSTOM:PinnapleFields"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.biomes_galore.small_pinapple": "DEPRECIATED pinapple",
+      "biome.biomes_galore.pinnaple_fields": "Pinnaple Fields",
+      "block.biomes_galore.pinapple_block": "Pinapple Block",
+      "entity.biomes_galore.pinapple_fish": "Pinapple Fish",
+      "block.biomes_galore.pinapple_stem": "Pinapple Stem",
+      "block.biomes_galore.pinapple_plant": "Pinapple (block)",
+      "item.biomes_galore.pinapple_pizza": "Pinapple Pizza",
+      "item.biomes_galore.pinapple": "Pinapple",
+      "item.biomes_galore.pinapple_fish_spawn_egg": "Pinapple Fish Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "biomes_galore",
+    "modName": "Biomes Galore!",
+    "version": "1.0.0",
+    "author": "kgree, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.biomesgalore"
+  },
+  "mcreatorVersion": 202400340615
+}

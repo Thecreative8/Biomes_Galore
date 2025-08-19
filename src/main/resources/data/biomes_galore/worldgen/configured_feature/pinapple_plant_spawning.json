@@ -1,0 +1,11 @@
+{
+  "type": "biomes_galore:pinapple_plant_spawning",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "biomes_galore:pinapple_plant"
+      }
+    }
+  }
+}

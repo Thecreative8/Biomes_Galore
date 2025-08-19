@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomes_galore:block/green",
+    "up": "biomes_galore:block/green",
+    "north": "biomes_galore:block/green",
+    "east": "biomes_galore:block/green",
+    "south": "biomes_galore:block/green",
+    "west": "biomes_galore:block/green",
+    "particle": "biomes_galore:block/green"
+  },
+  "render_type": "solid"
+}
